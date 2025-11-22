@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Oh Siii! Me haces feliz florecita';
+    document.getElementById('messageContainer').innerHTML = '“Ay, de verdad… me acabas de alegrar el día, florecita.”';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -261,3 +261,4 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
